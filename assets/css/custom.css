@@ -1,0 +1,97 @@
+  /*===========Aninmation */
+.container_cover {
+  width: 100%;
+  height:100% ;
+}
+
+.animation-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.animation-area li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  animation: animate 20s linear infinite;
+  bottom: -150px;
+}
+
+.animation-area li:nth-child(1) {
+  left: 85%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.animation-area li:nth-child(2) {
+  left: 75%;
+  width: 50px;
+  height: 50px;
+  animation-delay: 1.5s;
+  animation-duration: 10s;
+}
+
+.animation-area li:nth-child(3) {
+  left: 60%;
+  width: 100px;
+  height: 100px;
+  animation-delay: 5.5s;
+}
+
+.animation-area li:nth-child(4) {
+  left: 40%;
+  width: 50px;
+  height: 50px;
+  animation-delay: 0s;
+  animtion-duration: 15s;
+}
+
+.animation-area li:nth-child(5) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.animation-area li:nth-child(6) {
+  left: 10%;
+  width: 120px;
+  height: 120px;
+  animation-delay: 3.5s;
+}
+.animation-area li:nth-child(7) {
+  left: 35%;
+  width: 120px;
+  height: 120px;
+  animation-delay: 4.5s;
+}
+.animation-area li:nth-child(8) {
+  left: 5%;
+  width: 120px;
+  height: 120px;
+  animation-delay: 7s;
+}.animation-area li:nth-child(9) {
+  left: 40%;
+  width: 120px;
+  height: 120px;
+  animation-delay: 4s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  
+  100% {
+    transform: translateY(-800px) rotate(0deg);
+    opacity: 0
+  }
+
+/*================================================================*/
