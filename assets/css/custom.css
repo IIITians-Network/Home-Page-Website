@@ -50,7 +50,7 @@
   width: 50px;
   height: 50px;
   animation-delay: 3s;
-  animtion-duration: 15s;
+  /* animtion-duration: 15s; */
 }
 
 .animation-area li:nth-child(5) {
@@ -191,23 +191,23 @@
     transform: translateY(-800px) rotate(180deg);
     opacity: 0
   }
-  
+}
 /*================================================================*/
- <!--Counter Up files -->
-  .counter-section
+ /* Counter Up files  */
+.counter-section
 {
     margin: 10% auto;
-    color: white;
+    color: black;
 }
-.icon-box
+.icon-box1
 {
-    border: 1px solid white;
+    border: 1px solid black;
     width: 100px;
     height: 100px;
     margin: 20px auto;
     transform: rotate(45deg);
 }
-.icon-box .fa
+.icon-box1 .fa
 {
     font-size: 40px;
     margin: 25px auto;
