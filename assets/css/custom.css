@@ -191,5 +191,36 @@
     transform: translateY(-800px) rotate(180deg);
     opacity: 0
   }
-
+  
 /*================================================================*/
+ <!--Counter Up files -->
+  .counter-section
+{
+    margin: 10% auto;
+    color: white;
+}
+.icon-box
+{
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    transform: rotate(45deg);
+}
+.icon-box .fa
+{
+    font-size: 40px;
+    margin: 25px auto;
+    color: #ffc800;
+    transform: rotate(-45deg);
+
+}
+.counter-box p
+{
+font-size: 20px;
+}
+.counter-box .counter
+{
+font-size: 80px;
+}
+
