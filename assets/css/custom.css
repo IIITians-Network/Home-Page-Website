@@ -196,7 +196,7 @@
  /* Counter Up files  */
 .counter-section
 {
-    margin: 10% auto;
+    /* margin: 10% auto; */
     color: black;
 }
 .icon-box1
@@ -211,7 +211,7 @@
 {
     font-size: 40px;
     margin: 25px auto;
-    color: #ffc800;
+    color: #ef7f4d;
     transform: rotate(-45deg);
 
 }
