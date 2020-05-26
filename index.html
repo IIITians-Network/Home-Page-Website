@@ -13,6 +13,14 @@
 
     gtag('config', 'UA-166050406-1');
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+    <script type="text/javascript">
+        $(window).load(function() {
+            $(".se-pre-con").fadeOut("slow");;
+        });
+    </script>
 	
 
     <title>IIITians Network</title>
@@ -58,9 +66,26 @@
 	
     <!--==================================Counter Up files over ==============-->	
 	
+    <style>
+        .no-js #loader { display: none;  }
+        .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+        .se-pre-con {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url("./img/Preloader_7.gif") center no-repeat #fff;
+        }
+    </style>
+
+
 </head>
 
 <body>
+
+    <div class="se-pre-con"></div>
 
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
@@ -193,7 +218,7 @@ Cubes animation part ended-->
                     <div class="col-lg-5 d-flex align-items-center justify-content-center about-img" data-aos="fade-up">
 
                         <!-- Carousel part start -->
-                        <div id="demo" class="carousel slide" data-ride="carousel">
+                        <div id="demo" class="carousel slide" style="justify-content:center;text-align:center" data-ride="carousel">
                             <ul class="carousel-indicators">
                                 <li data-target="#demo" data-slide-to="0" class="active"></li>
                                 <li data-target="#demo" data-slide-to="1"></li>
@@ -201,21 +226,18 @@ Cubes animation part ended-->
                             </ul>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/logo/slider.jpg" alt="Los Angeles" width="457" height="304">
+                                    <img src="img/logo/slider.jpg" alt="Los Angeles" width="100%">
+                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/about/1.jpeg" alt="Chicago" width="100%">
                                     <div class="carousel-caption">
                                         <h3></h3>
                                         <p></p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/about/1.jpeg" alt="Chicago" width="457" height="304">
-                                    <div class="carousel-caption">
-                                        <h3></h3>
-                                        <p></p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/about/5.jpeg" alt="New York" width="457" height="304">
+                                    <img src="img/about/5.jpeg" alt="New York" width="100%">
                                     <div class="carousel-caption">
                                         <h3></h3>
                                         <p></p>
@@ -223,10 +245,10 @@ Cubes animation part ended-->
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
+                                <font color="grey" size="15px"><b>&#8249;</b></font>
                             </a>
                             <a class="carousel-control-next" href="#demo" data-slide="next">
-                                <span class="carousel-control-next-icon"></span>
+                                <font color="grey" size="15px"><b>&#8250;</b></font>
                             </a>
                         </div>
                         <!-- Carousel part ended -->
@@ -276,7 +298,7 @@ Cubes animation part ended-->
                     <div class="col-lg-5 d-flex align-items-center justify-content-center about-img" data-aos="fade-up">
 
                         <!-- Carousel part start -->
-                        <div id="demo2" class="carousel slide" data-ride="carousel">
+                        <div id="demo2" class="carousel slide" data-ride="carousel" style="justify-content:center;text-align:center">
                             <ul class="carousel-indicators">
                                 <li data-target="#demo2" data-slide-to="0" class="active"></li>
                                 <li data-target="#demo2" data-slide-to="1"></li>
@@ -284,21 +306,21 @@ Cubes animation part ended-->
                             </ul>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/about/2.jpeg" alt="Los Angeles" width="457" height="304">
+                                    <img src="img/about/2.jpeg" alt="Los Angeles" width="100%">
                                     <div class="carousel-caption">
                                         <h3></h3>
                                         <p></p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/about/4.jpeg" alt="Chicago" width="457" height="304">
+                                    <img src="img/about/4.jpeg" alt="Chicago" width="100%">
                                     <div class="carousel-caption">
                                         <h3></h3>
                                         <p></p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/logo/logo1.jpg" alt="New York" width="457" height="304">
+                                    <img src="img/logo/logo1.jpg" alt="New York" width="100%">
                                     <div class="carousel-caption">
                                         <h3></h3>
                                         <p></p>
@@ -306,10 +328,10 @@ Cubes animation part ended-->
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#demo2" data-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
+                                <font color="grey" size="15px"><b>&#8249;</b></font>
                             </a>
                             <a class="carousel-control-next" href="#demo2" data-slide="next">
-                                <span class="carousel-control-next-icon"></span>
+                                <font color="grey" size="15px"><b>&#8250;</b></font>
                             </a>
                         </div>
                         <!-- Carousel part ended -->
