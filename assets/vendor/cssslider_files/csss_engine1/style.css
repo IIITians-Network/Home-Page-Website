@@ -50,6 +50,7 @@
 
 .csslider1 > ul > .slide.img img {
   width: 100%;
+	height: 50rem;
 }
 @media only screen and (max-device-width: 500px) {
 	.csslider1 > ul {
