@@ -224,4 +224,16 @@ font-size: 20px;
 font-size: 80px;
 }
 
+/* Media tag for slider */
+@media only screen and (min-width: 600px) {
+	.csslider1 > ul {
+	height: 250px;
+	}
+	.csslider1 > ul > .slide.img img {
+	height: 250px;
+	}
+	
+	
+}
+
 
