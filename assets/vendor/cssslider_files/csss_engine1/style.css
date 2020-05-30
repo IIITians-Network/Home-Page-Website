@@ -64,6 +64,12 @@
 	  overflow: hidden;
 	  white-space: nowrap;
 	}
+
+	.csslider1 > ul > .slide.img img {
+	  width: 100%;
+		height: 200px;
+	}
+
 }
 
 
