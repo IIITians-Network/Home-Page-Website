@@ -1,4 +1,4 @@
-IIITians Network<br>
+<h2>IIITians Network</h2><br>
 This is the official website of students of IIITs.<br>
 SYNOPSIS<br>
 IIITians Network is an autonomous community which provides information and access of all IIIT’s to our users. IIITians Network website acknowledges our users about various activities, news and other information regarding the institutes. We aim at connecting people of all IIIT’s and grow this network to reach further more people.<br>
@@ -19,13 +19,14 @@ We can only improve and add value by working together with our community. Please
 
 
 Contributors ---<br>
-     The full screen fest slider was done by Abhishek Kumar IIIT Kurnool 2019 batch & Tejas Agarwal IIIT Allahabad 2019 batch
-		 The content is given by the content team primarly by Priyanshi Mehta & Achalesh Lakhotiya both from IIIT Kota 2019 batch
-		 The content is added in the template designed by Ayush Singh IIIT Bhopal 2019 batch
-		 The theme color is changed to blue by Gaurav Parmar IIIT Kota 2019 Batch
-		 Preloader CSS Part is added by Sarthak Gupta IIIT Pune 2019 Batch
-		 Prelader Design credit goes to Satya Saketh IIIT Tiruchirappalli 2018 Batch
-		 Slider bug was cleared by Raghav IIIT Nagpur 2019 Batch
-		 All the images are converted to webp by GitHub user: CvC1207
-		 Some more contribution goes to Tanmoy Modi IIIT Pune, Ankit Kumar IIIT Guwahati, Piyush Gupta IIIT Pune.
-		 The landing page (https://cssgradient.io/ ), About Us section (Except Content Credit), Our Campus, Join Community; , News, All IIIT-Logo slider (https://owlcarousel2.github.io/OwlCarousel2 ), Subsription form ( https://formspree.io ),  Search Engine Optimisation ( SEO ), Google Analytics (http://analytics.google.com/), Google Search Console ( https://search.google.com/ ); Special Mention ( https://michalsnik.github.io/aos ): Vibhanshu Jain IIIT Raichur 2019 batch (https://vibhanshujainiiitr.github.io)		 
+     The full screen fest slider was done by Abhishek Kumar IIIT Kurnool 2019 batch https://github.com/Abhishek1342 & Tejas Agarwal IIIT Allahabad 2019 batch<br>
+		 The content is given by the content team primarly by Priyanshi Mehta & Achalesh Lakhotiya both from IIIT Kota 2019 batch<br>
+		 The content is added in the template designed by Ayush Singh IIIT Bhopal 2019 batch<br>
+		 The theme color is changed to blue by Gaurav Parmar IIIT Kota 2019 Batch https://github.com/thegauravparmar<br>
+		 Preloader CSS Part is added by Sarthak Gupta IIIT Pune 2019 Batch https://github.com/sarthak74<br>
+		 Prelader Design credit goes to Satya Saketh IIIT Tiruchirappalli 2018 Batch<br>
+		 Slider bug was cleared by Raghav IIIT Nagpur 2019 Batch https://github.com/raghav1701<br>
+		 All the images are converted to webp by GitHub user: CvC1207 https://github.com/CvC1207<br>
+		 Some more contribution goes to Tanmoy Modi IIIT Pune https://github.com/tanmaymodi , Ankit Kumar IIIT Guwahati https://github.com/iamankitkumar08062001 , Piyush Gupta IIIT Pune https://github.com/piyushg9794 <br>
+		 Vibhanshu Jain IIIT Raichur 2019 batch https://github.com/vibhanshujainiiitr (https://vibhanshujainiiitr.github.io)
+		 <br>The landing page (https://cssgradient.io/ ), About Us section (Except Content Credit), Our Campus, Join Community; , News, All IIIT-Logo slider (https://owlcarousel2.github.io/OwlCarousel2 ), Subsription form ( https://formspree.io ),  Search Engine Optimisation ( SEO ), Google Analytics (http://analytics.google.com/), Google Search Console ( https://search.google.com/ ); Special Mention ( https://michalsnik.github.io/aos )		 
