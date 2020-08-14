@@ -902,10 +902,16 @@ section {
 }
 
 .all_iiit .owl-item img {
-  height: 80%;
+  width: 150px;
+   height: 150px;
   opacity: "";
   transition: 0.1s;
+  vertical-align: middle;
+  horizontal-align:middle;
+
+  
 }
+
 
 .all_iiit .owl-item img:hover {
   opacity: 1;
