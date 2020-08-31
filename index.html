@@ -83,7 +83,29 @@
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
     integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  
+    
+        <!-- loader script -->
+    <script type="text/javascript">
+        $(window).load(function () {
+            $(".se-pre-con").fadeOut("slow");;
+        });
+    </script>
+    <!-- auto hide navigation on scroll -->
+    <script type="text/javascript"> 
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("header").style.top = "0";
+        } else {
+            document.getElementById("header").style.top = "-75px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
+    </script>
 	
+
     <!--==================================Counter Up files over ==============-->	
 	
     <style>
@@ -105,7 +127,7 @@
 
 <body>
 
-    <!--div class="se-pre-con"></div-->
+    <div class="se-pre-con"></div>
 
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
@@ -135,8 +157,8 @@
                     </li-->
                     <li><a href="https://team.iiitiansnetwork.com/">Our Team</a></li>
                     <li><a href="https://alliiit.iiitiansnetwork.com/">All IIIT</a>
-
-                    <!--           	<ul>
+<!-- 
+                              	<ul>
                   <li><a href="#">IIITM Gwalior</a></li>
                   <li><a href="#">IIIT Allahabad</a></li>
                   <li><a href="#">IIITDM Kancheepuram</a></li>
@@ -161,8 +183,8 @@
                   <li><a href="#">IIIT Surat</a></li>
                   <li><a href="#">IIIT Bhagalpur</a></li>
                   <li><a href="#">IIIT Raichur</a></li>
-				</ul>
--->
+				</ul> -->
+
                     </li>
                     <li><a href="https://contact.iiitiansnetwork.com/">Contact</a></li>
                 </ul>
