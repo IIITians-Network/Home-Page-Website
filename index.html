@@ -3,23 +3,6 @@
 
 <head>
 	
-	<!-- Contributers............... 
-	     
-	     The full screen fest slider was done by Abhishek Kumar IIIT Kurnool 2019 batch & Tejas Agarwal IIIT Allahabad 2019 batch
-		 The content is given by the content team primarly by Priyanshi Mehta & Achalesh Lakhotiya both from IIIT Kota 2019 batch
-		 The content is added in the template designed by Ayush Singh IIIT Bhopal 2019 batch
-		 The theme color is changed to blue by Gaurav Parmar IIIT Kota 2019 Batch
-		 Preloader CSS Part is added by Sarthak Gupta IIIT Pune 2019 Batch
-		 Prelader Design credit goes to Satya Saketh IIIT Tiruchirappalli 2018 Batch
-		 Slider bug was cleared by Raghav IIIT Nagpur 2019 Batch
-		 All the images are converted to webp by GitHub user: CvC1207
-		 Some more contribution goes to Tanmoy Modi IIIT Pune, Ankit Kumar IIIT Guwahati, Piyush Gupta IIIT Pune.
-		 The landing page  ( https://cssgradient.io/ ), About Us section (Except Content Credit), Our Campus, Join Community; , News, All IIIT-Logo slider ( https://owlcarousel2.github.io/OwlCarousel2 ), Subsription form ( https://formspree.io ),  Search Engine Optimisation ( SEO ), Google Analytics (https://analytics.google.com/), Google Search Console ( https://search.google.com/ ); Special Mention ( https://michalsnik.github.io/aos ): Vibhanshu Jain IIIT Raichur 2019 batch (https://vibhanshujainiiitr.github.io)		 
-			 
-		 All credit goes to these people of the Web Development team of IIITians Network Web-Development Team: https://team.iiitiansnetwork.com/
-		 Never delete previous contribution, only add new contributers
-     -->
-	
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -60,6 +43,7 @@
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
@@ -125,6 +109,13 @@
             .se-pre-con {
                 background-size: contain;
             }
+
+        }
+
+        /* black font in all iiit dropdown */
+        .all-iiit a {
+            color: #121212;
+
         }
     </style>
 
@@ -146,7 +137,7 @@
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                     <li class="active"><a href="#">Home</a></li>
-                    <!--li><a href="">Counselling</a></li>
+                    <!--li>
                     <li><a href="">News</a></li>
                     <li class="drop-down"><a href="">Login</a>
                         <ul>
@@ -161,37 +152,42 @@
                             </li>
                         </ul>
                     </li-->
-                    <li><a href="https://team.iiitiansnetwork.com/">Our Team</a></li>
-                    <li><a href="https://alliiit.iiitiansnetwork.com/">All IIIT</a>
-<!-- 
-                              	<ul>
-                  <li><a href="#">IIITM Gwalior</a></li>
-                  <li><a href="#">IIIT Allahabad</a></li>
-                  <li><a href="#">IIITDM Kancheepuram</a></li>
-                  <li><a href="#">IIITDM Jabalpur</a></li>
-                  <li><a href="#">IIITDM Kurnool</a></li>
-                  <li><a href="#">IIIT Chittoor</a></li>
-                  <li><a href="#">IIIT Guwahati</a></li>
-                  <li><a href="#">IIIT Kalyani</a></li>
-                  <li><a href="#">IIIT Una</a></li>
-                  <li><a href="#">IIIT Vadodara</a></li>
-                  <li><a href="#">IIIT Kota</a></li>
-                  <li><a href="#">IIIT Tiruchirappalli</a></li>
-                  <li><a href="#">IIIT Sonepat</a></li>
-                  <li><a href="#">IIIT Manipur</a></li>
-                  <li><a href="#">IIIT Lucknow</a></li>
-                  <li><a href="#">IIIT Dharward</a></li>
-                  <li><a href="#">IIIT Pune</a></li>
-                  <li><a href="#">IIIT Bhopal</a></li>
-                  <li><a href="#">IIIT Agartala</a></li>
-                  <li><a href="#">IIIT Nagpur</a></li>
-                  <li><a href="#">IIIT Ranchi</a></li>
-                  <li><a href="#">IIIT Surat</a></li>
-                  <li><a href="#">IIIT Bhagalpur</a></li>
-                  <li><a href="#">IIIT Raichur</a></li>
-				</ul> -->
-
+                    <li><a href="https://jeecounselling.iiitiansnetwork.com/">Jee Counselling</a></li>
+                    <li><a href="https://placement.iiitiansnetwork.com/">IIIT Placements</a></li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        All IIIT
+                        </a>
+                        <div class="dropdown-menu all-iiit" aria-labelledby="navbarDropdown" style="max-height: 400px; overflow-y: scroll;">
+                            <a class="dropdown-item" target="_blank"  href="https://agartala.iiitiansnetwork.com">IIIT Agartala</a>
+                            <a class="dropdown-item" target="_blank"  href="https://allahabad.iiitiansnetwork.com">IIIT Allahabad</a>
+                            <a class="dropdown-item" target="_blank"  href="https://bhagalpur.iiitiansnetwork.com">IIIT Bhagalpur</a>
+                            <a class="dropdown-item" target="_blank"  href="https://bhopal.iiitiansnetwork.com">IIIT Bhopal</a>
+                            <a class="dropdown-item" target="_blank"  href="https://dharwad.iiitiansnetwork.com">IIIT Dharward</a> 
+                            <a class="dropdown-item" target="_blank"  href="https://guwahati.iiitiansnetwork.com">IIIT Guwahati</a> 
+                            <a class="dropdown-item" target="_blank"  href="https://gwalior.iiitiansnetwork.com">IIITM Gwalior</a>
+                            <a class="dropdown-item" target="_blank"  href="https://jabalpur.iiitiansnetwork.com">IIITDM Jabalpur</a>
+                            <a class="dropdown-item" target="_blank"  href="https://kalyani.iiitiansnetwork.com">IIIT Kalyani</a>
+                            <a class="dropdown-item" target="_blank"  href="https://kancheepuram.iiitiansnetwork.com">IIITDM Kancheepuram</a>
+                            <a class="dropdown-item" target="_blank"  href="https://kota.iiitiansnetwork.com">IIIT Kota</a>
+                            <a class="dropdown-item" target="_blank"  href="https://kottayam.iiitiansnetwork.com">IIIT Kottayam</a>
+			                      <a class="dropdown-item" target="_blank"  href="https://kurnool.iiitiansnetwork.com">IIITDM Kurnool</a>
+                            <a class="dropdown-item" target="_blank"  href="https://lucknow.iiitiansnetwork.com">IIIT Lucknow</a>
+                            <a class="dropdown-item" target="_blank"  href="https://manipur.iiitiansnetwork.com">IIIT Manipur</a>
+                            <a class="dropdown-item" target="_blank"  href="https://nagpur.iiitiansnetwork.com">IIIT Nagpur</a>
+                            <a class="dropdown-item" target="_blank"  href="https://pune.iiitiansnetwork.com">IIIT Pune</a>
+                            <a class="dropdown-item" target="_blank"  href="https://raichur.iiitiansnetwork.com">IIIT Raichur</a>
+                            <a class="dropdown-item" target="_blank"  href="https://ranchi.iiitiansnetwork.com">IIIT Ranchi</a>
+                            <a class="dropdown-item" target="_blank"  href="https://sonepat.iiitiansnetwork.com">IIIT Sonepat</a>
+                            <a class="dropdown-item" target="_blank"  href="https://sricity.iiitiansnetwork.com">IIIT Sri City</a> 
+                            <a class="dropdown-item" target="_blank"  href="https://surat.iiitiansnetwork.com">IIIT Surat</a>
+                            <a class="dropdown-item" target="_blank"  href="https://tiruchirapalli.iiitiansnetwork.com">IIIT Tiruchirapalli</a>
+                            <a class="dropdown-item" target="_blank"  href="https://una.iiitiansnetwork.com">IIIT Una</a>
+                            <a class="dropdown-item" target="_blank"  href="https://vadodara.iiitiansnetwork.com">IIIT Vadodara</a>
+                        </div>
                     </li>
+                    <li><a href="https://team.iiitiansnetwork.com/">Our Team</a></li>
                     <li><a href="https://contact.iiitiansnetwork.com/">Contact</a></li>
                 </ul>
             </nav><!-- .nav-menu -->
@@ -228,7 +224,7 @@
         <!-- ==================== End Intro Section ======================== -->
 
         <!-- ======= About Section ======= -->
-        <section id="about" class="about section">
+      <!--  <section id="about" class="about section">
             <div class="container">
 
                 <div class="col-lg-12 text-center">
@@ -239,9 +235,9 @@
                  
                 <div class="row justify-content-between" style="padding-bottom: 60px">
                     <div class="col-lg-5 d-flex align-items-center justify-content-center about-img" data-aos="fade-up">
-
+                    -->
                         <!-- Carousel part start -->
-                        <div id="demo" class="carousel slide" style="justify-content:center;text-align:center" data-ride="carousel">
+                     <!--   <div id="demo" class="carousel slide" style="justify-content:center;text-align:center" data-ride="carousel">
                             <ul class="carousel-indicators">
                                 <li data-target="#demo" data-slide-to="0" class="active"></li>
                                 <li data-target="#demo" data-slide-to="1"></li>
@@ -272,8 +268,9 @@
                             <a class="carousel-control-next" href="#demo" data-slide="next">
                                 <font color="grey" size="15px"><b>&#8250;</b></font>
                             </a>
-                        </div>
-                        <!-- Carousel part ended -->
+                        </div>-->
+                        <!-- Carousel part ended
+    
 
                     </div>
                     <div class="col-lg-6 pt-5 pt-lg-0">
@@ -293,10 +290,176 @@
                 </div>
 
             </div>
-        </section>
-
+        </section>-->
+        <!-- ======= Tabs Section ======= -->
+        <section id="tabs" class="tabs">
+            <div class="col-lg-12 text-center">
+                <h1 data-aos="fade-up"><b>About Us</b></h1>
+            </div>
+            <hr data-aos="fade-up" style="height:1px;border-width:0;color:gray;background-color:gray;width:80px;text-align:center;"><br><br>
+        
+            <div class="container" data-aos="fade-up">
+      
+              <ul class="nav nav-tabs row d-flex">
+                <li class="nav-item col-3">
+                  <a class="nav-link active show" data-toggle="tab" href="#tab-1">
+                    <i class="ri-gps-line"></i>
+                    <h4 class="d-none d-lg-block">About Our Network</h4>
+                  </a>
+                </li>
+                <li class="nav-item col-3">
+                  <a class="nav-link" data-toggle="tab" href="#tab-2">
+                    <i class="ri-body-scan-line"></i>
+                    <h4 class="d-none d-lg-block">Our contributions to the community</h4>
+                  </a>
+                </li>
+                <li class="nav-item col-3">
+                  <a class="nav-link" data-toggle="tab" href="#tab-3">
+                    <i class="ri-sun-line"></i>
+                    <h4 class="d-none d-lg-block"> Benefits of joining network.</h4>
+                  </a>
+                </li>
+                <li class="nav-item col-3">
+                  <a class="nav-link" data-toggle="tab" href="#tab-4">
+                    <i class="ri-store-line"></i>
+                    <h4 class="d-none d-lg-block">Strengths and Achievements of Our Network</h4>
+                  </a>
+                </li>
+              </ul>
+      
+              <div class="tab-content">
+                <div class="tab-pane active show" id="tab-1">
+                  <div class="row">
+                    <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+                     <br>
+                        <h3>Brief Intro About us</h3>
+                     <br>
+                      <ul>
+                        <li>IIITians Network is an Indian online social media and social networking service especially for students of Indian Institutes of Information Technology. Our primary aim is to provide a better platform for the exchange of information between IIITs.</li>
+                        <li>Besides this, we also focus on providing a better reach to the events organized by clubs/societies of different colleges. We are also trying to strengthen brand IIIT.<br> Our website aims for providing better knowledge about IIITs to the audience.<br> There are special tools for JEE Aspirants 
+                        <li><i class="ri-check-double-line"></i>    Rank predictor </li> 
+                        <li><i class="ri-check-double-line"></i>   College predictor </li>
+                </ul>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                      <img src="img/about/7.jpeg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-2">
+                    <div  id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <section class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <img class="img-fluid" src="img/about/1.jpeg">
+                                    </div>
+                                    <div class="col" >
+                                        <div class="card  carousel-text" >
+                                            <div class="card-body">
+                                              <p class="card-text"><b>Code Chronicles:</b><br>
+                                                It is a prestigious event which is an outcome of collaboration of all IIIT's with IIITians Network. It's a coding platform offered to coders which urges them to showcase their coding skills and obtain exposure to competitive coding. 
+                                             <span>   The idea behind code chronicles is that we want you to learn while competing with IIITians who are known for their coding culture.
+                                                It provides a platform for interaction, competition and discussion for the coders of IIITs and various other well known Engineering Institutions of India.
+                                                It includes questions of different difficulty levels, which focus on fundamentals of coding.</span> <!--This ultimately helps you to figure out what more you need to learn about coding.
+                                                IIITians Network gives out exciting goodies for the top three winners.
+                                             And as we all know IIITs were established by Government to provide higher education in India, focused on IT. That’s why the atmosphere of this event will be far more energetic than any other such coding event which was organised yet at College level.--></p>
+                                             <a href="#" class="btn btn-primary">More info</a>
+                                            
+                                            </div>
+                                          </div>             
+                                    </div>
+                
+                                </div>
+                            </section>
+                          </div>
+                        <div class="carousel-item">
+                            <section class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <img class="img-fluid" src="img/about/6.jpeg">
+                                    </div>
+                                    <div class="col" >
+                                        <div class="card  carousel-text" >
+                                            <div class="card-body">
+                                                <p class="card-title"><b>COMET (Community of Engineer and Teachgeeks):</b></p>
+                                              <p class="card-text">
+                                                This is our, another step towards creating something productive for our community.
+                                              <span> Under this, we are going to make sub-communities of a specific domain (e.g. Web Devs, ML, etc.) and we ask students from all IIITs if they have some knowledge and interest in a certain domain then they could join that community where they could easily share their ideas among the students with the similar mindset. And in this way, they could build up some great projects and this was not possible before the establishment of the IIITians Network.</span> 
+                                              </p>
+                                              <a href="https://welcome-page-project-comet.netlify.app/" class="btn btn-primary">More info</a>
+                                            
+                                            </div>
+                                          </div>             
+                                    </div>
+                
+                                </div>
+                            </section>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="color: #121212;">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" style="color: #121212;">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>  
+                </div>
+                <div class="tab-pane" id="tab-3">
+                  <div class="row">
+                    <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                     <br>
+                        <h3> Benefits of joining network.</h3>
+                    <br>
+                      <ul>
+                        <li><i class="ri-check-double-line"></i> 
+                            Connecting with IIITians Network is same as getting in touch with all the IIIT’s by being acknowledged with news, events and collaborations happening in the IIIT’s on a single platform, as we work to put forth the latest news and updates from all the IIIT’s. We are also sharing the valuable information like placements, academics, curriculum, cut-off, etc., thus providing you with the accurate knowledge about all the IIIT’s. The network not only provides you with the information but also enables you to escalate your creativity and visionary. As one can easily take part in the contests and challenges organized by us, or can gain an ample of interest in a particular topic by joining the webinars and other technical sessions hosted by us.
+                        </li>
+                        <li><i class="ri-check-double-line"></i>How we help college Clubs/Societies:<br>The network helps clubs/societies by providing a better reach to their events so that they could get the maximum no. of participants. We are also working on providing separate spaces to them on our websites where they could publish updates regarding their work and events. That could be easily accessible to our audience.</li>
+                        
+                    </ul>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2 text-center">
+                      <img src="img/about/5.jpeg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-4">
+                  <div class="row">
+                    <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                    <br>
+                      <h3>Strengths and Achievements</h3>
+                    <br>
+                      <ul>
+                        <li><b>Network Strengths:</b>
+                            Right now we have an overall reach of 15k students and. We are growing at pretty well rate on our social media platforms. Our aim is to provide relevant content to each and every member of our community. Because "Your network is your net worth" & IIITians Network help students to work collaboratively and build their personal networks which will help them a lot while working in corporate world.  </li>
+                            <b>Achievements:</b>
+                            <li><i class="ri-check-double-line"></i>
+                                We have successfully organised Coding contests and E-Sports events and Webinars on Industry Knowledge. </li>
+                            <li><i class="ri-check-double-line"></i>   We have crossed 4.5k followers on Instagram.</li> 
+                               <li><i class="ri-check-double-line"></i>On LinkedIn we have more than 2.5k followers. </li>
+                        
+                    </ul>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2 text-center">
+                      <img src="img/about/2.jpeg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+          </section><!-- End Tabs Section -->
         <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="services" class="services" style="background: #fff">
       <div class="container">
 
        
@@ -336,110 +499,11 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
-	    
-    <!--================================== STUDENT's LIFE =======================================================-->
-     <!-- <section>
-
-       		<!-- Start cssSlider.com --
-       		<!-- Generated by cssSlider.com 2.1 --
-       		<link rel="stylesheet" href="assets/vendor/cssslider_files/csss_engine1/style.css">
-       		<!--[if IE]><link rel="stylesheet" href="cssslider_files/csss_engine1/ie.css"><![endif]--
-       		<!--[if lte IE 9]><script type="text/javascript" src="cssslider_files/csss_engine1/ie.js"></script><![endif]--
-       		 <div class="csslider1 autoplay ">
-       		<input name="cs_anchor1" id="cs_slide1_0" type="radio" class="cs_anchor slide">
-       		<input name="cs_anchor1" id="cs_slide1_1" type="radio" class="cs_anchor slide">
-       		<input name="cs_anchor1" id="cs_slide1_2" type="radio" class="cs_anchor slide">
-       		<input name="cs_anchor1" id="cs_slide1_3" type="radio" class="cs_anchor slide">
-       		<input name="cs_anchor1" id="cs_slide1_4" type="radio" class="cs_anchor slide">
-       		<input name="cs_anchor1" id="cs_play1" type="radio" class="cs_anchor" checked="">
-       		<input name="cs_anchor1" id="cs_pause1_0" type="radio" class="cs_anchor pause">
-       		<input name="cs_anchor1" id="cs_pause1_1" type="radio" class="cs_anchor pause">
-       		<input name="cs_anchor1" id="cs_pause1_2" type="radio" class="cs_anchor pause">
-       		<input name="cs_anchor1" id="cs_pause1_3" type="radio" class="cs_anchor pause">
-       		<input name="cs_anchor1" id="cs_pause1_4" type="radio" class="cs_anchor pause">
-       		<ul>
-       			<li class="cs_skeleton"><img src="cssslider_files/csss_images1/1.jpg" style="width: 100%;"></li>
-       			<li class="num0 img slide"> <img src="assets/vendor/cssslider_files/csss_images1/1.jpg" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology" title="IIIT"></li>
-       			<li class="num1 img slide"> <img src="assets/vendor/cssslider_files/csss_images1/2.jpg" alt="Fest | IIITians Network | IIIT | Community | Indian Institute of Information Technology" title="Fest"></li>
-       			<li class="num2 img slide"> <img src="assets/vendor/cssslider_files/csss_images1/3.jpg" alt="Pro show | IIITians Network | IIIT | Community | Indian Institute of Information Technology" title="Pro Show"></li>
-       			<li class="num3 img slide"> <img src="assets/vendor/cssslider_files/csss_images1/4.jpg" alt="Pro show | IIITians Network | IIIT | Community | Indian Institute of Information Technology" title="Pro Show"></li>
-       			<li class="num4 img slide"> <img src="assets/vendor/cssslider_files/csss_images1/5.jpg" alt="Band show | IIITians Network | IIIT | Community | Indian Institute of Information Technology" title="Band Show"></li>
-       		</ul><div class="cs_engine"><a href="https://cssslider.com">css slider</a> by cssSlider.com v2.1</div>
-       		<div class="cs_description">
-       			<label class="num0"><span class="cs_title"><span class="cs_wrapper">CS go</span></span></label>
-       			<label class="num1"><span class="cs_title"><span class="cs_wrapper">Fest</span></span></label>
-       			<label class="num2"><span class="cs_title"><span class="cs_wrapper">Pro show</span></span></label>
-       			<label class="num3"><span class="cs_title"><span class="cs_wrapper">Pro show</span></span></label>
-       			<label class="num4"><span class="cs_title"><span class="cs_wrapper">Band show</span></span></label>
-       		</div>
-       		<div class="cs_play_pause">
-       			<label class="cs_play" for="cs_play1"><span><i></i><b></b></span></label>
-       			<label class="cs_pause num0" for="cs_pause1_0"><span><i></i><b></b></span></label>
-       			<label class="cs_pause num1" for="cs_pause1_1"><span><i></i><b></b></span></label>
-       			<label class="cs_pause num2" for="cs_pause1_2"><span><i></i><b></b></span></label>
-       			<label class="cs_pause num3" for="cs_pause1_3"><span><i></i><b></b></span></label>
-       			<label class="cs_pause num4" for="cs_pause1_4"><span><i></i><b></b></span></label>
-       			</div>
-       		<div class="cs_arrowprev">
-       			<label class="num0" for="cs_slide1_0"><span><i></i><b></b></span></label>
-       			<label class="num1" for="cs_slide1_1"><span><i></i><b></b></span></label>
-       			<label class="num2" for="cs_slide1_2"><span><i></i><b></b></span></label>
-       			<label class="num3" for="cs_slide1_3"><span><i></i><b></b></span></label>
-       			<label class="num4" for="cs_slide1_4"><span><i></i><b></b></span></label>
-       		</div>
-       		<div class="cs_arrownext">
-       			<label class="num0" for="cs_slide1_0"><span><i></i><b></b></span></label>
-       			<label class="num1" for="cs_slide1_1"><span><i></i><b></b></span></label>
-       			<label class="num2" for="cs_slide1_2"><span><i></i><b></b></span></label>
-       			<label class="num3" for="cs_slide1_3"><span><i></i><b></b></span></label>
-       			<label class="num4" for="cs_slide1_4"><span><i></i><b></b></span></label>
-       		</div>
-       		<div class="cs_bullets">
-       			<label class="num0" for="cs_slide1_0"> <span class="cs_point"></span>
-       				<span class="cs_thumb"><img src="assets/vendor/cssslider_files/csss_tooltips1/1.jpg" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology" title="IIIT"></span></label>
-       			<label class="num1" for="cs_slide1_1"> <span class="cs_point"></span>
-       				<span class="cs_thumb"><img src="assets/vendor/cssslider_files/csss_tooltips1/2.jpg" alt="Fest | IIITians Network | IIIT | Community | Indian Institute of Information Technology" title="Fest"></span></label>
-       			<label class="num2" for="cs_slide1_2"> <span class="cs_point"></span>
-       				<span class="cs_thumb"><img src="assets/vendor/cssslider_files/csss_tooltips1/3.jpg" alt="Pro show | IIITians Network | IIIT | Community | Indian Institute of Information Technology" title="Pro Show"></span></label>
-       			<label class="num3" for="cs_slide1_3"> <span class="cs_point"></span>
-       				<span class="cs_thumb"><img src="assets/vendor/cssslider_files/csss_tooltips1/4.jpg" alt="Pro show | IIITians Network | IIIT | Community | Indian Institute of Information Technology" title="Pro Show"></span></label>
-       			<label class="num4" for="cs_slide1_4"> <span class="cs_point"></span>
-       				<span class="cs_thumb"><img src="assets/vendor/cssslider_files/csss_tooltips1/5.jpg" alt="Band show | IIITians Network | IIIT | Community | Indian Institute of Information Technology" title="Band Show"></span></label>
-       		</div>
-       		</div> -->
-       		<!-- End cssSlider.com -->
-
-
-
-    </section>
     <section id="portfolio" class="section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
               <p>OUR NEW UPDATES</p>
-  	</section>
-        <!--================================== STUDENT's LIFE END =================================================-->
-        <!--============== Updates Section ===========->
-        <section class="all_iiit" style="text-align:center" id="news">
 
-            <div class="section-title" data-aos="fade-up">
-                <h2>News</h2>
-                <p></p>
-            </div>
-            <div class="owl-carousel clients-carousel" data-aos="fade-up" data-aos-delay="100" style="padding-bottom:40px">
-                <a href="img/news/webp/8.webp" data-gall="portfolioGallery" class="venobox" title=""><img src="img/news/webp/8.webp" alt="News | IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a>
-                <a href="img/news/webp/7.webp" data-gall="portfolioGallery" class="venobox" title=""><img src="img/news/webp/7.webp" alt="News | IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a>
-                <a href="img/news/webp/6.webp" data-gall="portfolioGallery" class="venobox" title=""><img src="img/news/webp/6.webp" alt="News | IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a>
-				<a href="img/news/webp/5.webp" data-gall="portfolioGallery" class="venobox" title=""><img src="img/news/webp/5.webp" alt="News | IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a>
-				<a href="img/news/webp/4.webp" data-gall="portfolioGallery" class="venobox" title=""><img src="img/news/webp/4.webp" alt="News | IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a>
-				<a href="img/news/webp/3.webp" data-gall="portfolioGallery" class="venobox" title=""><img src="img/news/webp/3.webp" alt="News | IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a>
-				<a href="img/news/webp/2.webp" data-gall="portfolioGallery" class="venobox" title=""><img src="img/news/webp/2.webp" alt="News | IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a>
-				<a href="img/news/webp/1.webp" data-gall="portfolioGallery" class="venobox" title=""><img src="img/news/webp/1.webp" alt="News | IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a>
-		   </div>
-
-        </section>
-    <!--============= Updates section ended ==============-->
-          <marquee behavior="scroll" direction="left" scrollamount="15"><h3 style="color:red"><b>PLACEMENTS AND COUNSELLING SECTION TO BE UPDATED SOON....</b></h3></marquee>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -453,7 +517,6 @@
                 <img class="d-block w-100" src="img/placements and counselling/counselling.jpeg" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="img/placements and counselling/placement.jpeg" alt="Second slide">
               </div>
               <div class="carousel-item">
                 <img class="d-block w-100" src="img/placements and counselling/1.png" alt="Third slide">
@@ -474,13 +537,11 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
-          </div>
-          </div>
           </section>
         <!--================================== STUDENT's LIFE END =================================================-->
 
         <!-- ======= Join us Section ======= -->
-        <section id="faq" class="faq section-bg">
+        <section id="faq" class="faq section">
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
@@ -496,7 +557,8 @@
                                 <a data-toggle="collapse" class="" href="#faq1">Do we conduct amazing technical & creative events?<i class="icofont-simple-up"></i></a>
                                 <div id="faq1" class="collapse show" data-parent=".faq-list">
                                     <p>
-                                      Yes for sure. To nourish technical & problem-solving skills and enhance creativity, we conduct events like Code Chronicles (monthly coding competition), Meme Lord competition, etc.  
+                                        Yes for sure. To nourish technical & problem-solving skills and enhance creativity, we conduct events like Code Chronicles (coding competition open to all institutes), webinars, alumni talks, QnA with start-up founders and CEO’s, Meme War competition and many other events of various domains. 
+
                                     </p>
                                 </div>
                             </li>
@@ -504,7 +566,7 @@
                                 <a data-toggle="collapse" href="#faq2" class="collapsed">How events are organized?<i class="icofont-simple-up"></i></a>
                                 <div id="faq2" class="collapse" data-parent=".faq-list">
                                     <p>
-                                      Code Chronicles is a monthly coding competition organized on the Code Chef platform globally. Meme Slam is conducted on our Instagram handle through entries via email.
+                                        We have and will be organizing various contests and events on different platforms. Code Chronicles is a monthly organized coding competition which takes place on Code Chef Platform globally. Meme War is conducted on our Facebook handle through entries via email. Webinars and many other similar events are hosted live on our YouTube channel.
                                     </p>
                                 </div>
                             </li>
@@ -512,7 +574,8 @@
                                 <a data-toggle="collapse" href="#faq3" class="collapsed">How to participate in such amazing events?<i class="icofont-simple-up"></i></a>
                                 <div id="faq3" class="collapse" data-parent=".faq-list">
                                     <p>
-                                      Firstly you should follow IIITians Network on Instagram, LinkedIn, Facebook, and Twitter for such thrilling and all-around updates. Then follow the instructions provided and here you go.
+
+                                        Primarily, one must turn in to IIITians Network’s social media accounts like Instagram, LinkedIn, Facebook and Twitter for getting such thrilling news and all updates regarding the events, competitions, webinars, etc. Then follow the instructions provided and here you go.
                                     </p>
                                 </div>
                             </li>
@@ -520,7 +583,8 @@
                                 <a data-toggle="collapse" href="#faq4" class="collapsed">How do we help IIITians?<i class="icofont-simple-up"></i></a>
                                 <div id="faq4" class="collapse" data-parent=".faq-list">
                                     <p>
-                                      As the name suggest, we are the united and never-ending the connection of 25 IIITs all over the nation. We share news about different events and competitions being organized around IIITs.
+                                        As the name suggest, we are united and never ending connection of 25 IIITs all over nation. We share news about different events and competitions being organised around IIITs and by IIITians network. 
+
                                     </p>
                                 </div>
                             </li>                 
@@ -531,43 +595,6 @@
             </div>
         </section>
         <!-- ======= Join us ended ========== -->
-
-        <!-- ======= All IIIT Section ======= -->
-        <section id="all_iiit" class="all_iiit">
-            <div class="container" style="text-align:center">
-
-                <div class="section-title" data-aos="fade-up">
-                    <h2></h2>
-                    <p>IIIT</p>
-                </div>
-		  <div class="owl-carousel clients-carousel" data-aos="fade-up" data-aos-delay="100">
-					<div class="card-img-top img-fluid"><a target="_blank" href="http://allahabad.iiitiansnetwork.com/"><img src="img/iiit_logo/allahabad.png" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>	
-	            <div class="card-img-top img-fluid">   <a target="_blank" href="http://agartala.iiitiansnetwork.com/"><img src="img/iiit_logo/agartala.jpg" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-	            <div class="card-img-top img-fluid">   <a target="_blank" href="http://bhagalpur.iiitiansnetwork.com/"><img src="img/iiit_logo/bhagalpur.png" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-	            <div class="card-img-top img-fluid">   <a target="_blank" href="http://bhopal.iiitiansnetwork.com/"><img src="img/iiit_logo/bhopal.png" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-	             <div class="card-img-top img-fluid">  <a target="_blank" href="http://gwalior.iiitiansnetwork.com/"><img src="img/iiit_logo/gwalior.jpg" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://jabalpur.iiitiansnetwork.com/"><img src="img/iiit_logo/jabalpur.jpg" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://kanchipuram.iiitiansnetwork.com/"><img src="img/iiit_logo/kanchipuram.png" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://kota.iiitiansnetwork.com/"><img src="img/iiit_logo/kota.png" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://kottayam.iiitiansnetwork.com/"><img src="img/iiit_logo/kottayam.jpg" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://kurnool.iiitiansnetwork.com/"><img src="img/iiit_logo/kurnool.png" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://lucknow.iiitiansnetwork.com/"><img src="img/iiit_logo/lucknow.png" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://manipur.iiitiansnetwork.com/"><img src="img/iiit_logo/manipur.jpg" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://nagpur.iiitiansnetwork.com/"><img src="img/iiit_logo/nagpur.png" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://pune.iiitiansnetwork.com/"><img src="img/iiit_logo/pune.jpg" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://raichur.iiitiansnetwork.com/"><img src="img/iiit_logo/raichur.png" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://ranchi.iiitiansnetwork.com/"><img src="img/iiit_logo/ranchi.png" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://sonepat.iiitiansnetwork.com/"><img src="img/iiit_logo/sonepat.png" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://surat.iiitiansnetwork.com/"><img src="img/iiit_logo/surat.jpg" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://tiruchirapalli.iiitiansnetwork.com/"><img src="img/iiit_logo/tiruchirapalli.png" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://una.iiitiansnetwork.com/"><img src="img/iiit_logo/una.png" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                   <div class="card-img-top img-fluid"> <a target="_blank" href="http://vadodara.iiitiansnetwork.com/"><img src="img/iiit_logo/vadodara.jpg" alt="IIITians Network | IIIT | Community | Indian Institute of Information Technology"></a></div>
-                </div>
-
-                
-            </div>
-        </section><!-- End All IIITs Section -->
-
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
@@ -615,8 +642,8 @@
                         <ul>
                             <li><i class="bx bx-chevron-right"></i> <a  href="http://team.iiitiansnetwork.com/">Core Team</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a  href="http://team.iiitiansnetwork.com/#web">Web Team</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a  href="http://team.iiitiansnetwork.com/#design">Design Team</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a  href="http://team.iiitiansnetwork.com/#design">Animation Team</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a  href="http://team.iiitiansnetwork.com/#design">Design  & Animation Team</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a  href="http://team.iiitiansnetwork.com/#content">Content Team</a></li>
                         </ul>
                     </div>
 
@@ -636,19 +663,6 @@
 					</div>	
                    
                 </div>
-            </div>
-        </div>
-
-        <div class="container-fluid d-flex justify-content-center py-4">
-            <div class="copyright">
-                &copy; Copyright <strong><span>IIITians Network</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/ -->
-                <a  target="_blank"  href="https://bootstrapmade.com/">Powered by BootstrapMade</a>
             </div>
         </div>
     </footer><!-- End Footer -->
