@@ -1689,4 +1689,10 @@ section {
 	margin-bottom: 0;
   }
   
-  
+  .carousel-control-next,
+  .carousel-control-prev {
+	  filter: invert(100%);
+	 width: 2%;
+	  
+  }
+ 
