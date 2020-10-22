@@ -115,6 +115,21 @@
             color: #121212;
         }
     </style>
+    <!-- ======= Added for Map ======= -->
+<link rel="stylesheet" href="./Map/style/style.css">
+<script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+<script src="Map/js/store-data.js"></script>
+<style>
+            @media screen and (max-width: 768px) {
+        .search-container{
+            display: none;
+        }
+        .stores-list-container{
+            display: none;
+        }
+        }
+</style>
+    <!-- ======= Added for Map ======= -->
 
 
 </head>
@@ -429,6 +444,42 @@
         <!-- ======= Join us ended ========== -->
         
     </main><!-- End #main -->
+
+
+        <!-- ======= Added for Map ======= -->
+<div class="map-item">
+    <div class="search-container">
+        <div class="search">
+            <input id="zip-code-input" type="text" placeholder="Enter zip">
+            <i class="fas fa-search" onclick="searchStores()" ></i>
+        </div>
+    </div> 
+    <div class="stores-list-container">
+        <div class="stores-list">
+            <div class="store-container">
+            <div class="store-info">
+                <div class="address">
+                <span> IIIT Allahabad</span>
+                       <span>Jhalwa, Prayagraj, Uttar Pradesh 211015</span>
+                </div>
+                <div class="phone-number">0532 292 2067</div>
+            </div>
+                <div class="store-number-container">
+                    <div class="store-number">
+                        1
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="map"></div>
+</div>
+
+<script src="Map/js/index.js"> </script>    
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4rH1Hy7HfaIJ0JqwZLpyTRTq0atoniNc&callback=initMap"
+async defer></script>
+
+    <!-- ======= Added for Map ======= -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
