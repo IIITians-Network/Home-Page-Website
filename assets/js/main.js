@@ -192,3 +192,16 @@ window.onload = function() {
   //css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
+
+// Fixes the prev/next links of the sliders
+$('.carousel-control.left').click(function(e) {
+  e.stopPropagation();
+  $('.js-carousel').carousel('prev');
+  return false;
+});
+
+$('.carousel-control.right').click(function(e) {
+  e.stopPropagation();
+  $('.js-carousel').carousel('next');
+  return false;
+});
