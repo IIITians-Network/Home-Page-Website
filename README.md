@@ -6,7 +6,7 @@
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fiiitiansnetwork.com%2F)
 
 # IIITians Network 🔥
-This is the official [website](https://iiitiansnetwork.com/) of IIItians Networks
+This is the official [website](https://iiitiansnetwork.com/) of IIITians Networks
 
 
 ## SYNOPSIS
