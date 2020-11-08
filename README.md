@@ -6,7 +6,7 @@
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fiiitiansnetwork.com%2F)
 
 # IIITians Network 🔥
-This is the official [website](https://iiitiansnetwork.com/) of IIItians Networks
+This is the official [website](https://iiitiansnetwork.com/) of IIITians Networks
 
 
 ## SYNOPSIS
@@ -27,6 +27,22 @@ This project's code is provided as-is, and is actively maintained. The developer
 ## Acknowledgement 👏🏻
 Help Us, help all.
 We can only improve and add value by working together with our community. Please help us iterate on our processes so that we can grow this program to enrich the larger engineering community. If you see something that needs attention, please submit an issue so we can address it in a timely manner.
+
+
+## Clone this repo and its submodules
+- Clone this repo and its submodule at the same, use the --recurse-submodules option:
+  ```
+  git clone --recurse-submodules https://github.com/IIITians-Network/Home-Page-Website.git
+  ```
+- If you've already cloned this repo without its submodule, then run this command from the repo root:
+  ```
+  git submodule update --init --remote
+  ```
+- NOTE: At any time during development you can use the git submodule command to refresh submodules:
+  ```
+  git pull; git submodule update --init --remote
+  ```
+
 
 
 ## Awesome contributors ✨
